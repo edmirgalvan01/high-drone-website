@@ -1,0 +1,14 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Viga', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-soft-grey: #dde6ed;
+  --color-grey: #9db2bf;
+  --color-hard-grey: #526d82;
+  --color-dark-grey: #27374d;
+}
