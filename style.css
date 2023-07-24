@@ -12,3 +12,25 @@ font-family: 'Viga', sans-serif; */
   --color-hard-grey: #526d82;
   --color-dark-grey: #27374d;
 }
+body {
+  background-color: #e2e2e2;
+}
+/* HEADER */
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header--logo {
+  color: var(--color-dark-grey);
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+.header--logo span {
+  color: var(--color-hard-grey);
+}
+.header--icon-menu {
+  width: 35px;
+}
+/* HEADER */
