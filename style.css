@@ -196,3 +196,16 @@ header {
   line-height: 2rem;
 }
 /* TOWN */
+
+/* CLIENTS */
+.clients {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.clients--item {
+  width: 30%;
+  max-width: 300px;
+}
+/* CLIENTS */
