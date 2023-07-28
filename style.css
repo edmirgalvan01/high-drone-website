@@ -130,3 +130,32 @@ header {
   box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.2);
 }
 /* EXAMPLES */
+
+/* SERVICES */
+.services {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.services--item {
+  display: flex;
+  gap: 20px;
+}
+.services--item__img {
+  width: 30%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.services--item__info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.services--item__info h3 {
+  color: #222;
+}
+.services--item__info p {
+  line-height: 2rem;
+}
+/* SERVICES */
