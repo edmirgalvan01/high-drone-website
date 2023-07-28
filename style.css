@@ -6,6 +6,7 @@
 }
 html {
   scroll-behavior: smooth;
+  background-color: #eee;
 }
 body {
   max-width: 1500px;
@@ -13,6 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  padding-top: 350px;
 }
 main {
   display: flex;
@@ -21,12 +23,18 @@ main {
 }
 /* HEADER */
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  background-color: #eee;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  padding: 30px;
-  border-bottom: 1px solid #eee;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
 }
 .header--drone {
   max-width: 250px;
