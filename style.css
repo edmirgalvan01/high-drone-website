@@ -78,3 +78,23 @@ header {
   height: 70vh;
 }
 /* VIDEO */
+
+/* ABOUT */
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  align-items: center;
+}
+.about h1 {
+  color: #222;
+  font-size: 46px;
+}
+.about p {
+  color: #222;
+  font-size: 18px;
+  width: 50vw;
+  line-height: 2.5rem;
+}
+/* ABOUT */
