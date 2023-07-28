@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   max-width: 1500px;
   margin: 0 auto;
@@ -223,3 +226,38 @@ header {
   line-height: 2rem;
 }
 /* TESTIMONIALS */
+
+/* CONTACT */
+.contact {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url("https://images.unsplash.com/photo-1487304655522-c039cc299c9d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"),
+    lightgray 50% / cover no-repeat;
+  background-attachment: fixed;
+}
+.contact h1 {
+  text-align: center;
+  color: #eee;
+}
+.contact--social {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.contact--social__item {
+  background-color: #eee;
+  padding: 30px;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+}
+/* CONTACT */
