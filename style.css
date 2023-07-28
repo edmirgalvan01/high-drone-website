@@ -209,3 +209,17 @@ header {
   max-width: 300px;
 }
 /* CLIENTS */
+
+/* TESTIMONIALS */
+.testimonials {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.testimonials--item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 2rem;
+}
+/* TESTIMONIALS */
