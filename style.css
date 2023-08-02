@@ -34,7 +34,22 @@ header {
   align-items: center;
   gap: 10px;
   padding: 20px;
+  padding-bottom: 30px;
   border-bottom: 1px solid #ccc;
+}
+.header--highdrone-logo {
+  background-color: #eee;
+  bottom: -35px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  padding: 10px;
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+}
+.header--highdrone-logo img {
+  width: 100%;
 }
 .header--drone {
   max-width: 250px;
