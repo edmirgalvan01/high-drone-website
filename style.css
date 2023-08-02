@@ -126,8 +126,7 @@ header {
       rgba(0, 0, 0, 0.5) 0%,
       rgba(0, 0, 0, 0.5) 100%
     ),
-    url("https://images.unsplash.com/photo-1487304655522-c039cc299c9d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"),
-    lightgray 50% / cover no-repeat;
+    url("./assets/examples/examples-bg.jpeg"), lightgray 50% / cover no-repeat;
   background-attachment: fixed;
 
   border-radius: 8px;
