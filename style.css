@@ -153,8 +153,10 @@ header {
   gap: 20px;
 }
 .services--item__img {
-  width: 30%;
+  width: 100%;
+  max-width: 400px;
   height: auto;
+  max-height: 250px;
   border-radius: 8px;
   object-fit: cover;
 }
