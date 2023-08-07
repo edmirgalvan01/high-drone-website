@@ -410,6 +410,9 @@ footer img {
   .services--item {
     flex-direction: column-reverse;
   }
+  .services--item__img {
+    min-width: 300px;
+  }
   .testimonials--list {
     flex-direction: column;
     gap: 20px;
@@ -443,6 +446,9 @@ footer img {
   .header--menu {
     display: block;
     width: 35px;
+  }
+  .footer--contact-items {
+    flex-direction: column;
   }
 }
 /* MEDIA QUERIES */
