@@ -352,10 +352,13 @@ footer img {
 .contact-item img {
   width: 30px;
 }
+.footer-atention {
+  width: 50%;
+}
 /* FOOTER */
 
 /* MEDIA QUERIES */
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   html {
     font-size: 14px;
   }
@@ -366,6 +369,16 @@ footer img {
     width: 100%;
     max-width: fit-content;
     height: auto;
+  }
+  .services--item {
+    flex-direction: column-reverse;
+  }
+  .testimonials--list {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .testimonials--item {
+    width: 100%;
   }
 }
 /* MEDIA QUERIES */
