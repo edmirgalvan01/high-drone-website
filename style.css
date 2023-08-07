@@ -28,6 +28,9 @@ main {
   font-size: 2rem;
   color: #222;
 }
+.disabled {
+  display: none;
+}
 /* HEADER */
 header {
   position: fixed;
@@ -43,6 +46,20 @@ header {
   padding: 20px;
   padding-bottom: 30px;
   border-bottom: 1px solid #ccc;
+}
+.header--menu {
+  display: none;
+}
+.header--mobile-menu {
+  position: absolute;
+  right: 0;
+  bottom: -250px;
+  padding: 30px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  background-color: #eee;
+  border-radius: 8px;
 }
 .header--highdrone-logo {
   background-color: #eee;
@@ -387,6 +404,9 @@ footer img {
     max-width: fit-content;
     height: auto;
   }
+  .about {
+    flex-direction: column;
+  }
   .services--item {
     flex-direction: column-reverse;
   }
@@ -396,6 +416,33 @@ footer img {
   }
   .testimonials--item {
     width: 100%;
+  }
+  .contact--social__item {
+    padding: 15px;
+  }
+}
+@media (max-width: 600px) {
+  body {
+    padding-inline: 20px;
+    padding-top: 120px;
+  }
+  header {
+    flex-direction: row;
+    padding-inline: 20px;
+    justify-content: space-between;
+  }
+  .header--highdrone-logo,
+  .header--title,
+  .header--slogan,
+  .header--nav {
+    display: none;
+  }
+  .header--drone {
+    width: 50px;
+  }
+  .header--menu {
+    display: block;
+    width: 35px;
   }
 }
 /* MEDIA QUERIES */
