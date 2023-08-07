@@ -305,6 +305,20 @@ header {
 }
 /* CONTACT */
 
+/* MAP */
+.map {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+.map iframe {
+  border-radius: 8px;
+  width: 100%;
+  height: 450px;
+}
+/* MAP */
+
 /* FOOTER */
 footer {
   border-top: 1px solid #eee;
