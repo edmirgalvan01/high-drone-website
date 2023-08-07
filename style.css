@@ -362,6 +362,23 @@ footer img {
   html {
     font-size: 14px;
   }
+  body {
+    padding-top: 300px;
+  }
+  .images {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .images--item {
+    width: 100%;
+    height: 20%;
+    max-height: 200px;
+  }
+  .images--item:hover {
+    height: 25%;
+    max-height: 250px;
+  }
   .examples {
     flex-direction: column;
   }
