@@ -447,6 +447,12 @@ footer img {
     display: block;
     width: 35px;
   }
+  .town {
+    display: none;
+  }
+  .contact--social__item {
+    padding: 5px;
+  }
   .footer--contact-items {
     flex-direction: column;
   }
