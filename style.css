@@ -7,6 +7,7 @@
 html {
   scroll-behavior: smooth;
   background-color: #eee;
+  font-size: 16px;
 }
 body {
   padding-inline: 40px;
@@ -24,7 +25,7 @@ main {
 }
 .section--title {
   text-align: center;
-  font-size: 36px;
+  font-size: 2rem;
   color: #222;
 }
 /* HEADER */
@@ -68,12 +69,12 @@ header {
 .header--slogan {
   color: #001c30;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .header--nav {
   display: flex;
   gap: 15px;
-  font-size: 15px;
+  font-size: 1rem;
 }
 .header--nav a {
   color: #000;
@@ -174,8 +175,8 @@ header {
   gap: 20px;
 }
 .services--item__img {
-  width: 100%;
-  max-width: 400px;
+  max-width: 100%;
+  min-width: 400px;
   height: auto;
   max-height: 250px;
   border-radius: 8px;
@@ -239,9 +240,11 @@ header {
   gap: 20px;
 }
 .clients--list {
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 .clients--item {
   width: 30%;
@@ -327,6 +330,9 @@ footer {
   align-items: center;
   gap: 30px;
 }
+footer p {
+  text-align: center;
+}
 footer img {
   max-width: 150px;
 }
@@ -347,3 +353,19 @@ footer img {
   width: 30px;
 }
 /* FOOTER */
+
+/* MEDIA QUERIES */
+@media (max-width: 1024px) {
+  html {
+    font-size: 14px;
+  }
+  .examples {
+    flex-direction: column;
+  }
+  .examples > img {
+    width: 100%;
+    max-width: fit-content;
+    height: auto;
+  }
+}
+/* MEDIA QUERIES */
