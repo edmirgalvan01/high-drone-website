@@ -1,0 +1,37 @@
+[
+  {
+    "img": "./assets/services/service-1.JPG",
+    "title": "Filmación aérea",
+    "description": "Consiste en la captura de imágenes y videos desde el aire utilizando drones profesionales equipados con cámaras de alta resolución. Sin duda alguna es el servicio más popular que requieren la mayoría de los clientes."
+  },
+  {
+    "img": "/assets/services/service-2.jpg",
+    "title": "Fumigación",
+    "description": "Este servicio es de los más recientes e innovadores que han surgido en los últimos años, la fumigación con drones se realiza en el campo con el equipo adecuado, se realiza con drones especializados, el equipo de administración se encarga de revisar que se cuente con el equipo suficiente para poder llevar a cabo la fumigación."
+  },
+  {
+    "img": "/assets/services/service-3.JPG",
+    "title": "Venta de equipos y accesorios",
+    "description": "Mediante la petición de nuestros clientes nos dedicamos a cotizar con los proveedores tanto el costo del material requerido como de un equipo completo. Al final el departamento de contabilidad y administración trabajan en conjunto para poder enviar la cotización al cliente."
+  },
+  {
+    "img": "/assets/services/service-4.JPEG",
+    "title": "Capacitacion",
+    "description": "En HIGH DRONE contamos con una amplia gama de cursos en el manejo de drones, los cuales son impartidos por personal profesional capacitado en las áreas de conocimiento, mismos que pueden ser ofrecidos en forma general o personalizada de acuerdo con la solicitud cada cliente."
+  },
+  {
+    "img": "/assets/services/service-5.jpg",
+    "title": "Reparación y mantenimiento",
+    "description": "De los servicios más populares y que frecuentemente se realizan en HIGH DRONE. Nuestro equipo técnico está capacitado para brindar soluciones a todo tipo de drones, especializándose en la marca DJI."
+  },
+  {
+    "img": "/assets/services/service-6.jpg",
+    "title": "Drones de seguridad y vigilancia",
+    "description": "En nuestro servicio de drones de seguridad y vigilancia generamos un plan de patrullaje que nos permita estar en lugares de dificil acceso, así como también estar en varios lugares en tiempos cortos, pudiendo observar y grabar los hechos."
+  },
+  {
+    "img": "/assets/services/service-7.png",
+    "title": "Renta de drones",
+    "description": "De acuerdo a las capacitaciones que generamos, validamos a diferentes participantes para ofrecer el servicio de renta de drones."
+  }
+]

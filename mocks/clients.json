@@ -1,0 +1,42 @@
+[
+  {
+    "img": "/assets/clients/conalep.png",
+    "name": "Conalep"
+  },
+  {
+    "img": "/assets/clients/neoblack.png",
+    "name": "Neo Black"
+  },
+  {
+    "img": "/assets/clients/pemex.svg",
+    "name": "Pemex"
+  },
+  {
+    "img": "/assets/clients/indra.jpg",
+    "name": "INDRA"
+  },
+  {
+    "img": "/assets/clients/isval.png",
+    "name": "Despacho contable Isval"
+  },
+  {
+    "img": "/assets/clients/annecy.jpg",
+    "name": "Annecy"
+  },
+  {
+    "img": "/assets/clients/aguascalientes.jpg",
+    "name": "Gobierno de Aguascalientes"
+  },
+  {
+    "img": "/assets/clients/coatzintla.jpg",
+    "name": "Gobierno de Coatzintla"
+  },
+  {
+    "img": "/assets/clients/mecamex.png",
+    "name": "Mecamex"
+  },
+  {
+    "img": "/assets/clients/poza-rica.webp",
+    "name": "Gobierno de Poza Rica"
+  }
+]
