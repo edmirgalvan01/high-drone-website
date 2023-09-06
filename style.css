@@ -459,4 +459,15 @@ footer img {
     flex-direction: column;
   }
 }
+@media (max-width: 475px) {
+  .clients--list {
+    flex-direction: row;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+  }
+  .clients--item {
+    width: 100%;
+    border-radius: 8px;
+  }
+}
 /* MEDIA QUERIES */
